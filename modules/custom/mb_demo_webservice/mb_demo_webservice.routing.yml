@@ -1,0 +1,7 @@
+mb_demo_webservice.data_display:
+  path: '/webservice-data-display'
+  defaults:
+    _title: 'Webservice Data Display'
+    _controller: '\Drupal\mb_demo_webservice\Controller\MBDemoWebServiceController::dataDisplay'
+  requirements:
+    _permission: 'access content'

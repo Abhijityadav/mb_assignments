@@ -1,0 +1,4 @@
+services:
+  mb_demo_webservice.data_display:
+    class: Drupal\mb_demo_webservice\Service\MBApiCall
+    arguments: ['@http_client']
