@@ -1,0 +1,7 @@
+name: Content Webservice
+description: Module to dispatch content via webservice.
+type: module
+core_version_requirement: ^9
+dependencies:
+  - node
+  - drupal:rest

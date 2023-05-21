@@ -1,0 +1,9 @@
+id: get_books
+plugin_id: get_books
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
